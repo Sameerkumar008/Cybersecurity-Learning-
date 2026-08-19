@@ -1,0 +1,255 @@
+# 🌐 Week 2 — Networking Fundamentals
+
+## 🎯 Goal
+
+Understand how devices communicate with each other and how data travels across networks.
+
+---
+
+## 📚 Topics Learned
+
+### 1. Computer Network
+
+A computer network is a group of connected devices that communicate and share data with each other.
+
+---
+
+## 2. Types of Networks
+
+### 📱 PAN — Personal Area Network
+A network used around a person's personal devices.
+
+### 🏠 LAN — Local Area Network
+A network covering a small area such as a home, school, or office.
+
+### 🏙️ MAN — Metropolitan Area Network
+A network covering a larger area such as a city or metropolitan region.
+
+### 🌍 WAN — Wide Area Network
+A network covering a large geographical area.
+
+The Internet is an example of a WAN.
+
+---
+
+# 🌐 3. IP Address
+
+**IP = Internet Protocol**
+
+An IP address is a logical address used to identify a device on a network and help deliver data to the correct destination.
+
+### IPv4
+
+IPv4 is the older version of IP.
+
+Example:
+
+`192.168.1.20`
+
+### IPv6
+
+IPv6 is the newer version of IP and provides a much larger address space.
+
+---
+
+# 🔒 4. Private IP vs Public IP
+
+### Private IP
+
+Used inside local networks such as:
+
+- Homes
+- Schools
+- Offices
+
+Example:
+
+`192.168.1.20`
+
+### Public IP
+
+Used for communication over the Internet.
+
+A public IP is generally assigned to a network by an **ISP (Internet Service Provider)**.
+
+---
+
+# 📡 5. Router
+
+A router connects networks and decides where network traffic should be forwarded.
+
+Basic flow:
+
+**Device → Router → ISP → Internet → Destination Server**
+
+---
+
+# 🪪 6. MAC Address
+
+**MAC = Media Access Control**
+
+A MAC address is associated with a device's network interface and is used for communication on the local network.
+
+### Important difference
+
+**IP address**
+- Logical network address
+- Can change depending on the network
+
+**MAC address**
+- Associated with the network interface
+- Used for local network communication
+
+---
+
+# 💻 7. NIC
+
+**NIC = Network Interface Card**
+
+A NIC allows a device to connect to a network.
+
+Examples:
+
+- Ethernet interface
+- Wi-Fi interface
+
+A MAC address is associated with the network interface.
+
+---
+
+# 🔎 8. DNS
+
+**DNS = Domain Name System**
+
+DNS translates domain names into IP addresses.
+
+Example:
+
+**google.com → IP address**
+
+This makes websites easier for people to access because remembering domain names is easier than remembering IP addresses.
+
+---
+
+# 🚪 9. Ports
+
+A port is a logical communication endpoint used by applications and services.
+
+Common ports learned:
+
+| Port | Service |
+|------|---------|
+| 21 | FTP |
+| 22 | SSH |
+| 53 | DNS |
+| 80 | HTTP |
+| 443 | HTTPS |
+
+### Example
+
+**HTTPS → Port 443**
+
+---
+
+# 🔄 10. TCP vs UDP
+
+### TCP
+**TCP = Transmission Control Protocol**
+
+TCP focuses on reliable and ordered delivery of data.
+
+It checks whether data is received and can retransmit data when necessary.
+
+### UDP
+**UDP = User Datagram Protocol**
+
+UDP has lower overhead and focuses on speed.
+
+It does not provide TCP-style delivery confirmation and retransmission.
+
+### Simple comparison
+
+**TCP → Reliability**
+
+**UDP → Speed / lower overhead**
+
+---
+
+# 🌍 11. Basic Website Request Flow
+
+When a user enters:
+
+`https://google.com`
+
+A simplified flow is:
+
+**Domain Name**
+
+↓  
+
+**DNS finds the IP address**
+
+↓
+
+**Connection uses the appropriate port**
+
+↓
+
+**NIC / Network Interface**
+
+↓
+
+**Router**
+
+↓
+
+**ISP**
+
+↓
+
+**Internet**
+
+↓
+
+**Google Server**
+
+↓
+
+**Website response returns to the device**
+
+---
+
+# 🧠 Key Concepts I Learned
+
+- Networks allow devices to communicate and share data.
+- PAN, LAN, MAN, and WAN describe different network scopes.
+- IP addresses help identify devices and route traffic.
+- Private IP addresses are used inside local networks.
+- Public IP addresses are used for Internet communication.
+- Routers forward traffic between networks.
+- MAC addresses are associated with network interfaces.
+- NICs provide network connectivity.
+- DNS translates domain names into IP addresses.
+- Ports identify communication endpoints for services.
+- TCP prioritizes reliable, ordered delivery.
+- UDP provides lower-overhead communication without TCP-style reliability.
+
+---
+
+# 🔗 Important Relationship
+
+**Device → NIC → Router → ISP → Internet → Server**
+
+And for a website:
+
+**Domain → DNS → IP → Port → Connection → Server → Response**
+
+---
+
+## ✅ Week 2 Status
+
+**Completed**
+
+### 🚀 Next
+
+**Week 3 — Security Fundamentals**
