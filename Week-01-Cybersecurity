@@ -1,0 +1,224 @@
+# 🔐 Week 1 — Cybersecurity Fundamentals
+
+## 🎯 Goal
+
+Build a strong foundation in cybersecurity concepts, common threats, and basic security terminology.
+
+---
+
+## 📚 Topics Learned
+
+### 1. What is Cybersecurity?
+
+Cybersecurity is the process of protecting systems such as:
+
+- Computers
+- Mobile devices
+- Websites
+- Servers
+- Databases
+- Important information
+
+from cyber threats and unauthorized access.
+
+---
+
+### 2. CIA Triad
+
+The CIA Triad represents three important security goals:
+
+#### 🔒 Confidentiality
+Only authorized people should be able to access information.
+
+**Example:** Private chats and patient records.
+
+#### 🛡️ Integrity
+Information should not be changed or modified without authorization.
+
+**Example:** A bank balance or an employee's salary should not be changed illegally.
+
+#### 🌐 Availability
+Systems and information should be available when authorized users need them.
+
+**Example:** An online examination or counseling website should remain accessible.
+
+---
+
+### 3. Asset
+
+An **asset** is anything valuable that needs protection.
+
+Examples:
+
+- Customer information
+- Patient records
+- Databases
+- Servers
+- Computers
+- Websites
+
+---
+
+### 4. Threat
+
+A **threat** is something that can potentially cause harm to an asset.
+
+**Example:** An attacker targeting a company's database.
+
+---
+
+### 5. Vulnerability
+
+A **vulnerability** is a weakness in software, hardware, systems, or configurations that could be exploited.
+
+**Example:** Running outdated software with a known security weakness.
+
+---
+
+### 6. Exploit
+
+An **exploit** is a method or technique used to take advantage of a vulnerability.
+
+Basic relationship:
+
+**Vulnerability → Exploit → Potential Damage**
+
+---
+
+### 7. Risk
+
+**Risk** is the possibility that a threat successfully exploits a vulnerability and causes damage.
+
+Example:
+
+**Patient records → Attacker → Outdated software → Exploitation → Data compromise**
+
+---
+
+## 👨‍💻 Types of Hackers
+
+### White Hat
+
+- Works with permission.
+- Performs authorized security testing.
+- Helps organizations find and fix security weaknesses.
+
+### Black Hat
+
+- Acts without authorization.
+- May steal, damage, or misuse data.
+
+### Script Kiddie
+
+Someone who uses tools or scripts created by others without necessarily understanding how the underlying techniques work.
+
+### APT
+
+**Advanced Persistent Threat (APT)**
+
+A sophisticated and persistent cyber threat that can remain active in a target environment for an extended period.
+
+---
+
+# 🦠 Malware
+
+**Malware** means malicious software designed to perform harmful or unauthorized actions.
+
+### Virus
+
+A virus attaches itself to files and can spread when infected files are shared or executed.
+
+### Worm
+
+A worm can spread automatically across networks without needing to attach itself to another file in the same way a virus does.
+
+### Trojan
+
+A Trojan is malicious software that may appear to be a legitimate or useful program.
+
+### Ransomware
+
+Ransomware can encrypt or lock files and demand payment from the victim.
+
+---
+
+# 🎣 Phishing
+
+Phishing is an attack where an attacker uses deceptive messages, links, or websites to trick users into providing information.
+
+Examples of targeted information:
+
+- Passwords
+- Banking information
+- Account credentials
+
+**Safety:** Verify websites and links before entering sensitive information.
+
+---
+
+# 🌐 DoS
+
+**DoS = Denial of Service**
+
+A DoS attack attempts to make a service unavailable to legitimate users.
+
+**Main CIA impact:**
+
+➡️ Availability
+
+---
+
+# 🕵️ MITM
+
+**MITM = Man-in-the-Middle**
+
+An attacker attempts to intercept communication between two parties.
+
+---
+
+# 🦠 WannaCry Case Study
+
+**WannaCry** was a major ransomware attack in **2017**.
+
+Important lessons:
+
+- Malware can spread rapidly.
+- Outdated software can increase security risk.
+- Security updates and patches are important.
+- Organizations should maintain proper security controls and backups.
+
+---
+
+# 🧠 Security Relationship
+
+One of the most important concepts I learned:
+
+**Asset → Threat → Vulnerability → Exploit → Risk**
+
+Example:
+
+**Patient records → Attacker → Outdated software → Exploit → Data compromise**
+
+---
+
+# 📝 Key Takeaways
+
+- Cybersecurity protects systems, networks, and information.
+- The CIA Triad consists of Confidentiality, Integrity, and Availability.
+- Assets need protection from threats.
+- Vulnerabilities are weaknesses.
+- Exploits take advantage of vulnerabilities.
+- Risk can result when a threat successfully exploits a vulnerability.
+- White Hats work with authorization.
+- Malware includes viruses, worms, Trojans, and ransomware.
+- Phishing uses deception to trick users.
+- DoS attacks target service availability.
+- Security updates and good security practices help reduce risk.
+
+---
+
+## ✅ Week 1 Status
+
+**Completed**
+
+Next: **Week 2 — Networking Fundamentals**
